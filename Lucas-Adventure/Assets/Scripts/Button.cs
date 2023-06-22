@@ -13,7 +13,7 @@ public class Button : MonoBehaviour
 
     public void SceneSelect()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("ActualGame");
     }
 
 }
