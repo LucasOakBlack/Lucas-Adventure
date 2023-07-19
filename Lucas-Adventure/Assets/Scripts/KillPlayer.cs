@@ -24,7 +24,7 @@ public class KillPlayer : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(tryAgainScreen);
+            SceneManager.LoadSceneAsync(2);
         }
     }
 }
